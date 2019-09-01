@@ -1,10 +1,39 @@
 def intro():
+    print(r'''\
+
+        .-. . .-..----..-.    .---.  .----. .-.   .-..----.    .---.  .----.
+        | |/ \| || {_  | |   /  ___}/  {}  \|  `.'  || {_     {_   _}/  {}  \
+        |  .'.  || {__ | `--.\     }\      /| |\ /| || {__      | |  \      /
+        `-'   `-'`----'`----' `---'  `----' `-' ` `-'`----'     `-'   `----'
+
+                    .-.   .-.  .--.  .----. .-.   .-..----.  .----.
+                    |  `.'  | / {} \ | {}  \| |   | || {}  }{ {__
+                    | |\ /| |/  /\  \|     /| `--.| || {}  }.-._} }
+                    `-' ` `-'`-'  `-'`----' `----'`-'`----' `----'
+        ''')
+
+    #ASCII generator http://patorjk.com/
+
     print('Welcome to MadLibs! MadLibs are short, silly stories based on your words. ')
     #definition of madLibs: https://www.glowwordbooks.com/blog/category/kids-online-mad-libs/
 
+    print(r'''\
+
+                                       ._ o o
+                                       \_`-)|_
+                                    ,""       \
+                                  ,"  ## |   ಠ ಠ.
+                                ," ##   ,-\__    `.
+                              ,"       /     `--._;)
+                            ,"     ## /
+                          ,"   ##    /
+
+
+                    ''')
+
     print('''
-    a proper noun is the name of a person, place or thing: e.g., Alaska, Phillip, Tahoe
-    \n a noun is a person, place, or thing: e.g.
+    \n a proper noun is the name of a person, place or thing: e.g., Alaska
+    \n a noun is a person, place, or thing: e.g. tree
     \n an adjective is a describing word: e.g., beautiful, warm, cold
     \n an adverb is word that modifies another word: e.g., gently, quitly
     \n a verb is a word that describes an action: e.g., hear, run, fly
