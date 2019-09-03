@@ -1,5 +1,8 @@
+import colorama
+from colorama import init ,Fore ,Style
+
 def intro():
-    print(r'''\
+    print(Fore.BLUE + r'''\
 
         .-. . .-..----..-.    .---.  .----. .-.   .-..----.    .---.  .----.
         | |/ \| || {_  | |   /  ___}/  {}  \|  `.'  || {_     {_   _}/  {}  \
@@ -11,6 +14,8 @@ def intro():
                     | |\ /| |/  /\  \|     /| `--.| || {}  }.-._} }
                     `-' ` `-'`-'  `-'`----' `----'`-'`----' `----'
         ''')
+
+    print(Style.RESET_ALL)
 
     #ASCII generator http://patorjk.com/
 
@@ -52,7 +57,7 @@ random_story = '''
     \n {}. Sometimes the bird would feel {} and eat {}.
     \n But when the bird would try to eat a {},
     \n the bird would see their friend, the {}
-    \n {}. Together, they would {} see {}
+    \n {}. Together, they would {} watch {}
     \n {} for {} hours.
     '''
 
