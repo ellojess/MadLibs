@@ -2,7 +2,7 @@ import colorama
 from colorama import init ,Fore ,Style
 
 def intro():
-    print(Fore.BLUE + r'''\
+    print(Fore.RED + r'''\
 
         .-. . .-..----..-.    .---.  .----. .-.   .-..----.    .---.  .----.
         | |/ \| || {_  | |   /  ___}/  {}  \|  `.'  || {_     {_   _}/  {}  \
